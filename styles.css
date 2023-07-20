@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(121, 119, 245);
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-rows: 45% 10% 10%;
+    justify-content: center;
+    margin: 160px;
+}
+
+.cuadro1 {
+    width: 750px;
+    height: 170px;
+    border-top: 4px solid rgb(255, 255, 255);
+    border-left: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
+    box-shadow: 7px 5px 5px rgb(255, 0, 0);
+   
+    
+}
+
+.cuadro1 img {
+    width: 750px;
+    height: 170px;
+}
+
+.cuadro2 {
+    width: 750px;
+    height: 170px;
+    box-shadow: 7px 5px 5px rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    text-align: center;
+
+
+}
+.cuadro2 h3{
+    position: relative;
+    bottom: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+}
+.cuadro2 h5{
+    position: relative;
+    bottom: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+    color: grey;
+    }
+
+.cuadro2 img {
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 3px solid rgb(255, 0, 0);
+    position: relative;
+    bottom: 35%;
+}
+
+.img3 img{
+    position: relative;
+    bottom: 60%;
+    left: 93%;
+}
